@@ -76,6 +76,7 @@ Plugin framework for user interface components
 %{_libdir}/cmake/KF6Parts
 %{_qtdir}/mkspecs/modules/qt_KParts.pri
 %{_qtdir}/doc/KF6Parts.*
+%{_datadir}/kdevappwizard/templates/kpartsapp.tar.bz2
 
 %files -n %{libname}
 %{_libdir}/libKF6Parts.so*
