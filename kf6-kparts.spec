@@ -42,15 +42,6 @@ Requires: %{name} = %{EVRD}
 %description -n %{libname}
 Plugin framework for user interface components
 
-%package -n %{libname}-designer
-Summary: Qt Designer support for %{name} widgets
-Group: System/Libraries
-Requires: %{libname} = %{EVRD}
-Supplements: qt6-qttools-designer
-
-%description -n %{libname}-designer
-Qt Designer support for %{name} widgets
-
 %package -n %{devname}
 Summary: Development files for %{name}
 Group: Development/C
@@ -88,6 +79,3 @@ Plugin framework for user interface components
 
 %files -n %{libname}
 %{_libdir}/libKF6Parts.so*
-
-%files -n %{libname}-designer
-%{_qtdir}/plugins/designer/kparts6widgets.so
