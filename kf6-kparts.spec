@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Parts
 %define devname %mklibname KF6Parts -d
-%define git 20230726
+%define git 20230802
 
 Name: kf6-kparts
 Version: 5.240.0
