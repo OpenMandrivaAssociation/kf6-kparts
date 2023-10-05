@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Parts
 %define devname %mklibname KF6Parts -d
-%define git 20230927
+%define git 20231005
 
 Name: kf6-kparts
 Version: 5.240.0
@@ -76,7 +76,6 @@ Plugin framework for user interface components
 %files -n %{devname}
 %{_includedir}/KF6/KParts
 %{_libdir}/cmake/KF6Parts
-%{_qtdir}/mkspecs/modules/qt_KParts.pri
 %{_qtdir}/doc/KF6Parts.*
 %{_datadir}/kdevappwizard/templates/kparts6-app.tar.bz2
 
