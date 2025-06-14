@@ -6,7 +6,7 @@
 #define git 20240217
 
 Name: kf6-kparts
-Version: 6.14.0
+Version: 6.15.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kparts/-/archive/master/kparts-master.tar.bz2#/kparts-%{git}.tar.bz2
@@ -82,7 +82,6 @@ Plugin framework for user interface components
 %files -n %{devname}
 %{_includedir}/KF6/KParts
 %{_libdir}/cmake/KF6Parts
-%{_qtdir}/doc/KF6Parts.*
 %{_datadir}/kdevappwizard/templates/kparts6-app.tar.bz2
 
 %files -n %{libname}
